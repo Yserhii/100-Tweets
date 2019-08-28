@@ -16,4 +16,3 @@ git clone https://github.com/Yserhii/100-Tweets.git && cd 100-Tweets && open D04
 ## Main screen:
 - Search new 100 tweets:
 - Show 100 tweets:
-
