@@ -26,7 +26,7 @@
 		A0C79EC022C636F300BEDB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C79EC222C636F300BEDB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C79EC822C637A100BEDB76 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		A0C79ECA22C6413300BEDB76 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = ../Tweet.swift; sourceTree = "<group>"; };
+		A0C79ECA22C6413300BEDB76 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		A0C79ECD22C6418900BEDB76 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +41,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A062479B23167E3800DFF18E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				A0C79EC822C637A100BEDB76 /* TableViewCell.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		A062479C23167E4700DFF18E /* M */ = {
+			isa = PBXGroup;
+			children = (
+				A0C79ECA22C6413300BEDB76 /* Tweet.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A062479D23167E4D00DFF18E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A0C79EB822C636F200BEDB76 /* ViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		A0C79EAA22C636F200BEDB76 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				A0C79EB622C636F200BEDB76 /* AppDelegate.swift */,
-				A0C79EB822C636F200BEDB76 /* ViewController.swift */,
 				A0C79EBA22C636F200BEDB76 /* Main.storyboard */,
 				A0C79EBD22C636F300BEDB76 /* Assets.xcassets */,
 				A0C79EBF22C636F300BEDB76 /* LaunchScreen.storyboard */,
-				A0C79EC822C637A100BEDB76 /* TableViewCell.swift */,
 				A0C79EC222C636F300BEDB76 /* Info.plist */,
+				A062479D23167E4D00DFF18E /* C */,
+				A062479C23167E4700DFF18E /* M */,
+				A062479B23167E3800DFF18E /* V */,
 				A0C79ECC22C6416000BEDB76 /* New Group */,
 			);
 			path = D04;
@@ -75,7 +100,6 @@
 		A0C79ECC22C6416000BEDB76 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				A0C79ECA22C6413300BEDB76 /* Tweet.swift */,
 				A0C79ECD22C6418900BEDB76 /* APIController.swift */,
 			);
 			path = "New Group";

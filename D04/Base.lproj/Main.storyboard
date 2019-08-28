@@ -34,13 +34,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4d-tb-tlb">
-                                                    <rect key="frame" x="25" y="16" width="42.5" height="20.5"/>
+                                                    <rect key="frame" x="20" y="11" width="42.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-DW-cdD">
-                                                    <rect key="frame" x="269" y="16" width="120" height="17"/>
+                                                    <rect key="frame" x="274" y="11" width="120" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="120" id="j3t-x1-hjF"/>
                                                     </constraints>
@@ -49,7 +49,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbH-Dh-D28">
-                                                    <rect key="frame" x="25" y="46.5" width="31.5" height="17"/>
+                                                    <rect key="frame" x="20" y="33.5" width="31.5" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -57,14 +57,14 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="N7C-DW-cdD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="k4d-tb-tlb" secondAttribute="trailing" constant="10" id="6cy-bW-RpB"/>
-                                                <constraint firstItem="N7C-DW-cdD" firstAttribute="top" secondItem="ILr-GO-3Q2" secondAttribute="topMargin" constant="5" id="Gcl-Fa-Cxn"/>
-                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="HbH-Dh-D28" secondAttribute="trailing" constant="5" id="JzG-o1-EQJ"/>
-                                                <constraint firstItem="k4d-tb-tlb" firstAttribute="top" secondItem="ILr-GO-3Q2" secondAttribute="topMargin" constant="5" id="KKn-21-Iae"/>
-                                                <constraint firstItem="k4d-tb-tlb" firstAttribute="leading" secondItem="ILr-GO-3Q2" secondAttribute="leadingMargin" constant="5" id="Oob-QP-rTo"/>
-                                                <constraint firstItem="HbH-Dh-D28" firstAttribute="leading" secondItem="ILr-GO-3Q2" secondAttribute="leadingMargin" constant="5" id="RuK-1e-s6y"/>
-                                                <constraint firstItem="HbH-Dh-D28" firstAttribute="top" secondItem="k4d-tb-tlb" secondAttribute="bottom" constant="10" id="fdc-hB-KDC"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="HbH-Dh-D28" secondAttribute="bottom" constant="5" id="j42-2x-5lF"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="N7C-DW-cdD" secondAttribute="trailing" constant="5" id="tMf-Za-HEP"/>
+                                                <constraint firstItem="N7C-DW-cdD" firstAttribute="top" secondItem="ILr-GO-3Q2" secondAttribute="topMargin" id="Gcl-Fa-Cxn"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="HbH-Dh-D28" secondAttribute="trailing" id="JzG-o1-EQJ"/>
+                                                <constraint firstItem="k4d-tb-tlb" firstAttribute="top" secondItem="ILr-GO-3Q2" secondAttribute="topMargin" id="KKn-21-Iae"/>
+                                                <constraint firstItem="k4d-tb-tlb" firstAttribute="leading" secondItem="ILr-GO-3Q2" secondAttribute="leadingMargin" id="Oob-QP-rTo"/>
+                                                <constraint firstItem="HbH-Dh-D28" firstAttribute="leading" secondItem="ILr-GO-3Q2" secondAttribute="leadingMargin" id="RuK-1e-s6y"/>
+                                                <constraint firstItem="HbH-Dh-D28" firstAttribute="top" secondItem="k4d-tb-tlb" secondAttribute="bottom" constant="2" id="fdc-hB-KDC"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="HbH-Dh-D28" secondAttribute="bottom" id="j42-2x-5lF"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="N7C-DW-cdD" secondAttribute="trailing" id="tMf-Za-HEP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

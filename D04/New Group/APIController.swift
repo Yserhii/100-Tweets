@@ -60,15 +60,16 @@ class APIController {
                         }
                     }
                 }
-            } catch (let err){
+            } catch (let err) {
                 DispatchQueue.main.async(execute: {
                     self.delegate?.errorTweets(error: err as NSError)
                 })
                 return
             }
-            
         }
         task.resume()
     }
+    
+    
 }
 
